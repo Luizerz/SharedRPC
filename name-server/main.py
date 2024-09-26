@@ -1,6 +1,7 @@
 import flet as ft
 import threading
 import Pyro4
+import Pyro4.naming
 
 debugLog = ft.Column()
 textfield = ft.TextField(label="Seu IPV4")
